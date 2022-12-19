@@ -14,23 +14,28 @@
     <h3 style="text-align: center;color: #f7b946;">Book a call</h3>
     <h6 class="lead"> Book a call slot and our representative will call you within 1 hr of selected time</h6>
     <hr>
-
+    
+        //Form
     <form id="my-form">
+        //Getting name as input
         <div class="row mb-3">
         <label for="name" class="form-label">Name:</label><br>
         <input type="text" class="form-control" id="name" value="">
         </div>
 
+         //Getting email as input
         <div class="row mb-3">
         <label for="email" class="form-label">Email:</label><br>
         <input type="text" class="form-control" id="email" value="">
         </div>
 
+        //Getting phonenumber as input
         <div class="row mb-3">
         <label for="phonenumber" class="form-label">Phone:</label><br>
         <input type="tel" class="form-control" id="phonenumber" value="">
         </div>
      
+        //Getting date and time for input
         <div class="row mb-3">
         <label for="Dateforcall">Time for Call:</label><br>
         <div class="col mb-6">
@@ -41,6 +46,7 @@
         </div>
         </div>
         
+        //Submit
         <div class="row mb-3">
         
             <button type="submit" class="form-control" style="background-color:#f7b946; height:35px ">GET A CALL</button>
@@ -49,6 +55,7 @@
 </div>
 </div>
 
+//Javascipt file
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
